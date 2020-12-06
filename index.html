@@ -3,54 +3,65 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>WayUp lessons</title>
+  <title>Wayup LV4</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Open+Sans&family=Ubuntu:wght@400;700&display=swap"> 
   <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
+
   <header>
-    <img src="img/logo.jpg" alt="Логотип Wayup">
-    <h1 class="red-text">Вступление H1</h1>
-    <p class="blue-box">
-      Это текст<br> моего второго домашнего задания.
-    </p>
-    <p>
-      Не верится, но мне уже удается писать свой <span class="red-text">первый код на HTML.</span>
-    </p>
+    <div class="container">
+      <img class="logo" src="img/logo_(1).png" alt="Логотип Wayup" width="98" height="38">
+      <div class="wrapper">
+        <div class="intro">
+          <h1>
+            С помощью верстки<br>
+             я создам ту жизнь, о которой <span>мечтаю!</span>
+          </h1>
+          <p>Мои стремления + настойчивость позволят мне достичь чего угодно. Я не верю в это. Я знаю это на 100%. Меня не остановить!</p>
+          <a class="btn" href="#">Двигаться к мечте!</a>
+        </div>
+        <img src="img/129983-ORUAFL-508.png" alt="Красивенько" width="641" height="641">
+      </div>
+    </div>
   </header>
 
-  <section>
-    <h2>Что дальше? H2</h2>
-    <p>
-      Дальше, я буду получать все больше и больше опыта в разработке сайтов, чтобы достичь новых вершин! 
-      <a href="https://google.com" target="_blank">Прочитать больше в Google</a>
-    </p>
+  <section class="features">    
+    <div class="container">
+      <h2>Что меня ждет впереди</h2>
+      <ul>
+        <li class="feature-item time">
+          <h3>Свободное время</h3>
+          <p>Мне нужно свободное время на семью и самое настоящее</p>
+        </li>
+        <li class="feature-item beach">
+          <h3>Яркие путешествия</h3>
+          <p>Работать откуда угодно - что может быть лучше?</p>
+        </li>
+        <li class="feature-item launch">
+          <h3>Создание ценности</h3>
+          <p>Нет ничего сильнее, чем жить не просто так, создавая ценность</p>
+        </li>
+      </ul>
+    </div>
   </section>
 
-  <section>
-    <h2 class="padding-80">Что я буду уметь? H2</h2>
-    <p class="padding-200">
-      Я смогу создавать вот такие замечательные формы:
-    </p>
-    <form action="#">
-      <input type="text" placeholder="Имя">
-      <input type="email" placeholder="E-mail">
-      <input type="phone" placeholder="Телефон">
-      <input type="button" value="Отправить форму">
+  <section class="form">
+    <h2>Форма заказа билета в будущее</h2>
+    <form action="">
+      <input type="text" name="firstname" placeholder="Имя">
+      <input type="text" name="empty">
+      <input type="phone" name="phone" placeholder="Телефон">
+      <input type="text" name="destination" placeholder="Куда я полечу в ближайшее время?">
+      <input class="btn" type="submit" value="Двигаться к мечте!">
     </form>
-    <p>
-      А также, я научусь создавать списки:
-    </p>
-    <ul>
-      <li>С одним пунктом</li>
-      <li>С несколькими пунктами</li>
-      <li>И даже с тремя отдельными пунктами</li>
-    </ul>
   </section>
 
   <footer>
-    <h2>Отличное начало! H2</h2>
-    <a href="https://wayup.in/cabinet/course10/unit1/lesson1" target="_blank">Перейти на страницу первого занятия курса</a>
+    <p>© Все мои мечты защищены моим трудолюбием</p>
   </footer>
+
 </body>
 </html>

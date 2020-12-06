@@ -1,51 +1,163 @@
 body {
-    margin: 15px;
-    font-size: 28px;
-    font-family: 'Times New Roman', Times, serif;
-
+  padding: 0;
+  margin: 0;
+  font-family: Ubuntu, sans-serif;
 }
 
-h1 {
-    margin-top: 50px;
-    margin-bottom: 45px;
-    font-size: 60px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: 700;
 }
 
-h2 {
-    padding: 15px;
-    color: white;
-    background-color: green;
-}
-
-.blue-box {
-    margin-bottom: 200px;
-    width: 200px;
-    color: white;         
-    line-height: 1.5em;
-    background-color: blue;
-}
-
-.red-text {
-    color: red;
-}
-
-.padding-80 {
-    padding: 80px;
-}
-.padding-200 {
-    padding-left: 200px;
-}
-
-ul {
-    padding: 20px 80px;
-}
-
+div,
+p,
+input,
+button,
+form,
+span,
+a,
+ul,
 li {
-    font-size: 48px;
-    border: 1px solid #000000;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+header {
+  color: #ffffff;
+  background: rgb(78, 190, 254);
+  background: -moz-linear-gradient(31deg, rgb(78, 190, 254) 30%, rgb(55, 143, 217) 70%);
+  background: -webkit-linear-gradient(31deg, rgb(78, 190, 254) 30%, rgb(55, 143, 217) 70%);
+  background: -o-linear-gradient(31deg, rgb(78, 190, 254) 30%, rgb(55, 143, 217) 70%);
+  background: -ms-linear-gradient(31deg, rgb(78, 190, 254) 30%, rgb(55, 143, 217) 70%);
+  background: linear-gradient(121deg, rgb(78, 190, 254) 30%, rgb(55, 143, 217) 70%);
+}
+
+.logo {
+  margin-top: 62px;
+  margin-bottom: 9px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.intro {
+  margin-top: 132px;
+  margin-bottom: 212px;
+}
+h1 {
+  width: 560px;  
+  font-size: 37px;  
+  line-height: 49px;
+}
+h1 span {
+  font-size: 59px;
+  letter-spacing: 1.18px;
+  line-height: 73px;
+}
+.intro p {
+  margin-bottom: 42px;
+  width: 397px;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 27px;
+}
+.btn {
+  display: block;   
+  padding: 20px 0;
+  font-weight: 900;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.3px;
+  text-align: center;  
+  color: #000000;
+  background: #ffd429;
+}
+.intro .btn {
+  width: 222px;
+}
+.features {
+  padding-top: 108px;
+  color: #201b2d;
+  text-align: center;
+}
+h2 {  
+  font-size: 30px;
+}
+.features ul {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 73px;
+  list-style: none;
+}
+.feature-item {
+  padding-top: 99px;
+  margin-bottom: 120px;
+}
+.time {
+  width: 287px;
+  background: url('../img/icons8-time-machine-96.png') top center no-repeat;
+}
+.beach {
+  width: 262px;
+  background: url('../img/icons8-beach-96.png') top center no-repeat;
+}
+.launch {
+  width: 297px;
+  background: url('../img/icons8-launch-96.png') top center no-repeat;
+}
+h3 {  
+  font-size: 19px;
+}
+.feature-item p {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.form {
+  padding: 104px 0;
+  background: #ecf3f8;
+  text-align: center;
+}
+form {  
+  margin: 57px auto 0;  
+  width: 345px;
     
 }
 input {
-    width: 300px;
-    font-size: 24px;
+  display: block;
+  margin-bottom: 15px;
+  padding-left: 25px;  
+  width: 343px;
+  height: 48px;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  border: 1px solid #bbbbbb;
+  border-radius: 4px;
+}
+.form .btn {  
+  width: 343px;
+  height: 56px;
+  border: none;  
+}
+
+footer {  
+  padding: 60px 0;
+  font: 400 14px/25px 'Open Sans', sans-serif;
+  letter-spacing: 0.28px;
+  text-align: center;
+  color:  #ffffff;
+  background-color: #164d7a;
 }
