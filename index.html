@@ -11,7 +11,7 @@
 
 <body>
 
-  <header>
+  <header class="main-header">
     <div class="container">
       <img class="logo" src="img/logo_(1).png" alt="Логотип Wayup" width="98" height="38">
       <div class="wrapper">
@@ -23,7 +23,7 @@
           <p>Мои стремления + настойчивость позволят мне достичь чего угодно. Я не верю в это. Я знаю это на 100%. Меня не остановить!</p>
           <a class="btn" href="#">Двигаться к мечте!</a>
         </div>
-        <img src="img/129983-ORUAFL-508.png" alt="Красивенько" width="641" height="641">
+        <img class="intro-img" src="img/129983-ORUAFL-508.png" alt="Красивенько">
       </div>
     </div>
   </header>
@@ -48,18 +48,21 @@
     </div>
   </section>
 
-  <section class="form">
-    <h2>Форма заказа билета в будущее</h2>
-    <form action="">
-      <input type="text" name="firstname" placeholder="Имя">
-      <input type="text" name="empty">
-      <input type="phone" name="phone" placeholder="Телефон">
-      <input type="text" name="destination" placeholder="Куда я полечу в ближайшее время?">
-      <input class="btn" type="submit" value="Двигаться к мечте!">
-    </form>
+  <section class="order-form">    
+    
+    <div class="container">
+      <h2>Форма заказа билета в будущее</h2>
+      <form action="">
+        <input type="text" name="firstname" placeholder="Имя">
+        <input type="text" name="empty">
+        <input type="tel" name="phone" placeholder="Телефон">
+        <input type="text" name="destination" placeholder="Куда я полечу в ближайшее время?">
+        <button class="btn" type="submit">Двигаться к мечте!</button>
+      </form>
+    </div>
   </section>
 
-  <footer>
+  <footer class="main-footer">
     <p>© Все мои мечты защищены моим трудолюбием</p>
   </footer>
 
